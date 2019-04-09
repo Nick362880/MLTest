@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+		<style>
+		body {
+			margin: 0;
+		}
+
+		canvas {
+			position: absolute;
+		}
+
+		input {
+		    position: absolute;
+		    width: 140px;
+		    bottom: 20px;
+		    left: calc(50vw - 70px);
+		}
+		</style>
+		<script src="mltest.js"></script>
+    </head>
+    <body>
+        <canvas></canvas>
+        <input type="range" value="1" step="0.5" min="0.5" max="5">
+    </body>
+</html>
+
+<!--
+
+Randomized points generated for tx and ty should be checked and fixed for offscreen
